@@ -36,9 +36,11 @@ public class UIBikes {
         out.println();
         imprimir(listaBicycle);
 
-        listaMountainBike.add(bici);
+        listaMountainBike.add(bici); // No se puede agregar bici en listaMountainBike porque son de diferente tipo
         listaMountainBike.add(biciMtb);
-        listaMountainBike.add(biciRuta);
+        listaMountainBike.add(biciRuta); // No se puede agregar biciRuta en listaMountainBike porque son de diferente tipo
+
+        imprimir(listaMountainBike);
 
     }
 
